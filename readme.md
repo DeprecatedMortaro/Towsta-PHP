@@ -6,14 +6,14 @@ This is a lib to integrate your application with the Towsta's API in a PHP proje
 Towsta Secret
 -------------
 
-Before being able to synchronize, you need to define your Towsta's Secret. To do so, all you need is to define the constant 'TOWSTA_SECRET';
+Before being able to synchronize, you need to define your Towsta's Secret. To do so, all you need is to define the constant "TOWSTA_SECRET";
 
 Modules
 -------
 
 For every module on your Towsta project, this lib will generate a file containing the respective class. So if you have a module named "Books", you will have a file "book.php", containing the class "Book" extending from "Towsta" class.
 
-You can change the location of "modules" folder by defining the constant "MODULES_FOLDER";
+You can change the location of "modules" folder by defining the constant "MODULE_FOLDER";
 
 Synchronizer
 ------------
