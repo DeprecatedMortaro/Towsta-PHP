@@ -29,7 +29,7 @@ Each module has its own class, with the following methods:
 
 * `static::first()` - Returns the first instance of the synchronized objects (very useful to syncs using "id" as condition);
 
-* `attributes()` - Lists all the modules attributes as an array formated like:  `'attribute_name' => 'attribute_type'`;
+* `static::attributes()` - Lists all the modules attributes as an array formated like:  `'attribute_name' => 'attribute_type'`;
 
 * `get()` - Returns the object attribute. Ex: `$book->get('title')` will return the referenced book's title;
 
